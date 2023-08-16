@@ -1,0 +1,100 @@
+.Date {
+  position: relative;
+  top: 20px;
+  padding-left: 60px;
+  margin-left: 95px;
+  width: 892px;
+  height: 96.765px;
+  flex-shrink: 0;
+  border-radius: 33.428px 33.428px 0px 0px;
+  background: #ff4ade;
+  z-index: 1;
+}
+
+.Date .date_format {
+  position: absolute;
+  top: 2px;
+  left: 30px;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40.06px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.688%; /* 78.013px */
+  letter-spacing: 1.101px;
+}
+
+.Date .time_format {
+  position: absolute;
+  left: 350px;
+  top: 40px;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: auto;
+  padding-left: 80px;
+}
+
+.weather_info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 33.428px;
+  background: #101744;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 912px;
+  margin-left: 95px;
+}
+
+.temp {
+  width: 100.094px;
+  height: 58.224px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 28.224px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 109.27px */
+}
+
+.pressure {
+  font-size: 1rem;
+  color: white;
+}
+
+/* Add more styles for other elements as needed */
+.condition {
+  position: absolute;
+  top: 140px;
+
+  width: 100.228px;
+  height: 31.432px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 43.907px */
+}
+
+.speed {
+  color: #fff;
+  font-size: smaller;
+}
+.humidity {
+  color: #fff;
+  font-size: smaller;
+}
+.view {
+  width: 80px;
+}

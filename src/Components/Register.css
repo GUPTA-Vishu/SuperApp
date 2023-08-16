@@ -1,0 +1,223 @@
+.register_page {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+}
+
+.left_container {
+  position: relative;
+}
+.left_container img {
+  width: 100%;
+  max-height: 100%;
+  flex-shrink: 0;
+  position: relative;
+  display: block;
+}
+.discover {
+  position: absolute;
+  width: 600px;
+  height: 140px;
+
+  top: 70%; /* Adjust this value to vertically position the text */
+  left: 50%; /* Adjust this value to horizontally position the text */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* To center the text both horizontally and vertically */
+  color: white; /* Text color */
+  font-size: 50px; /* Adjust the font size as needed */
+  font-weight: bold; /* Set font weight as needed */
+  /* Background color for better readability */
+  padding: 10px;
+}
+
+.right_container {
+  background-color: black;
+  position: relative;
+}
+.right_container .heading {
+  position: absolute;
+  top: 5px;
+  left: 300px;
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 139.688%; /* 93.591px */
+}
+.right_container .subheading {
+  position: absolute;
+  width: 250px;
+  height: 20px;
+  top: 100px;
+  left: 320px;
+  color: #fff;
+}
+
+.right_container .entry_tags {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+.checkbox_part {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.checkbox_part .checkbox {
+  position: absolute;
+  top: 480px;
+  left: 180px;
+}
+.checkbox_part .text {
+  position: absolute;
+  top: 460px;
+  left: 220px;
+  color: #fff;
+
+  color: #7c7c7c;
+  font-family: DM Sans;
+  font-size: 20.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 27.984px */
+  letter-spacing: 0.401px;
+  width: 433px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.button {
+  position: absolute;
+  top: 520px;
+  left: 180px;
+  width: 518px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 28px;
+  background: #72db73;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 108.688%; /* 31.519px */
+  letter-spacing: 0.58px;
+}
+.heading2 {
+  position: absolute;
+  top: 630px;
+  left: 180px;
+  width: 518px;
+  height: 53px;
+  flex-shrink: 0;
+  color: #7c7c7c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%; /* 25.506px */
+  letter-spacing: 0.36px;
+}
+.span1 {
+  color: #72db73;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%;
+  letter-spacing: 0.36px;
+}
+.span2 {
+  color: #72db73;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%;
+  letter-spacing: 0.36px;
+}
+
+.uiform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  left: 10px;
+
+  /* Needed for absolute positioning of the button */
+}
+
+.uiform .field1 {
+  width: 518px;
+  height: 64.869px;
+  flex-shrink: 0;
+  border-radius: 3.816px;
+  background: #292929;
+}
+.uiform .field2 {
+  width: 518px;
+  height: 64.869px;
+  flex-shrink: 0;
+  border-radius: 3.816px;
+  background: #292929;
+}
+.uiform .field3 {
+  width: 518px;
+  height: 64.869px;
+  flex-shrink: 0;
+  border-radius: 3.816px;
+  background: #292929;
+}
+.uiform .field4 {
+  width: 518px;
+  height: 64.869px;
+  flex-shrink: 0;
+  border-radius: 3.816px;
+  background: #292929;
+}
+
+.uiform button {
+  position: absolute;
+  top: 400px;
+  /* Position at the bottom of the .uiform container */
+  left: 50%; /* Position horizontally centered */
+  transform: translateX(-50%); /* Adjust horizontally centered positioning */
+}
+.error1 {
+  color: #f00;
+  font-family: DM Sans;
+  font-size: 10.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 27.984px */
+  letter-spacing: 0.401px;
+  text-align:left;
+}
+.error2 {
+  color: red;
+  color: #f00;
+  font-family: DM Sans;
+  font-size: 10.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 27.984px */
+  letter-spacing: 0.401px;
+  text-align: left;
+  
+
+}
+.error3 {
+  
+  color: #f00;
+  font-family: DM Sans;
+  font-size: 10.033px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%; /* 27.984px */
+  letter-spacing: 0.401px;
+ ;
+}
+

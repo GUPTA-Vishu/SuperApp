@@ -1,0 +1,255 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: black;
+}
+.left_side {
+  width: 50%;
+  height: 100vh;
+}
+.right_side {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+}
+
+.action {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 6px solid #11b800;
+  background: #ff5209;
+  position: absolute;
+  top: 10px;
+}
+.romance {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 6px solid #11b800;
+  background: #ff5209;
+  position: absolute;
+  top: 10px;
+  left: 220px;
+}
+
+.thriller {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 6px solid #11b800;
+  background: #148a08;
+  position: absolute;
+  top: 10px;
+  left: 440px;
+}
+.drama {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #84c2ff;
+  position: absolute;
+  top: 230px;
+  left: 0px;
+}
+.western {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+
+  background: #902500;
+  position: absolute;
+  top: 230px;
+  left: 220px;
+}
+.horror {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #7358ff;
+  position: absolute;
+  top: 230px;
+  left: 440px;
+}
+.fantasy {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #ff4ade;
+  position: absolute;
+  top: 430px;
+  left: 0px;
+}
+.music {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 6px solid #11b800;
+  background: #e61e32;
+  position: absolute;
+  top: 430px;
+  left: 220px;
+}
+.fiction {
+  width: 180px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #6cd061;
+  position: absolute;
+  top: 430px;
+  left: 440px;
+}
+.image {
+  width: 160px;
+  height: 118px;
+  flex-shrink: 0;
+  border-radius: 11.661px;
+  margin-left: 8px;
+
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.55);
+}
+.text {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 10px;
+}
+
+.left_side h3 {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 71px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  /* 99.178px */
+}
+.left_side h4 {
+  width: 554px;
+  height: 316px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.688%;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  /* 94.988px */
+}
+.next-button {
+  width: 128px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%; /* 24.235px */
+  letter-spacing: 0.526px;
+  position: absolute;
+  top: 670px;
+  left: 500px;
+  background-color: #11b800;
+  border-radius: 20px;
+}
+
+.select_action {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #148a08;
+  justify-content: space-between;
+  border: 5px solid green;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+
+.select_action.visible {
+  visibility: visible; /* Apply this style when the actionCategorySelected is true */
+}
+
+.select_romance {
+  width: 100px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #148a08;
+  justify-content: space-between;
+  border: 5px solid green;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+}
+.select_romance.visible {
+  visibility: visible;
+}
+
+.delete {
+  width: 5px;
+  height: 10px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.688%; /* 94.988px */
+}
+
+.left_side .group1 {
+  position: absolute;
+  top: 500px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.left_side .group2 {
+  position: absolute;
+  top: 550px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.left_side .group3 {
+  position: absolute;
+  top: 600px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.warn {
+  color: #902500;
+  position: absolute;
+  top: 620px;
+  left: 20px;
+}
