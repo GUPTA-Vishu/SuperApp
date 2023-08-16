@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/superapp/static/css/main.0dc358b4.css",
-    "main.js": "/superapp/static/js/main.b5400366.js",
+    "main.js": "/superapp/static/js/main.8f140bd5.js",
     "static/media/LightRain.png": "/superapp/static/media/LightRain.27d1fd3102c2de7c9c7c.png",
     "static/media/rockstar.png": "/superapp/static/media/rockstar.034950db6609bf9d5f24.png",
     "static/media/Profile.png": "/superapp/static/media/Profile.04596714d17a6a2e53c9.png",
@@ -20,10 +20,10 @@
     "static/media/toggle.png": "/superapp/static/media/toggle.66c68d9dc4c5a9a6145d.png",
     "index.html": "/superapp/index.html",
     "main.0dc358b4.css.map": "/superapp/static/css/main.0dc358b4.css.map",
-    "main.b5400366.js.map": "/superapp/static/js/main.b5400366.js.map"
+    "main.8f140bd5.js.map": "/superapp/static/js/main.8f140bd5.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc358b4.css",
-    "static/js/main.b5400366.js"
+    "static/js/main.8f140bd5.js"
   ]
 }
