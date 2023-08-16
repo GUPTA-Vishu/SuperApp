@@ -16,7 +16,7 @@ function App() {
     <div className="App">
      <BrowserRouter>
      <Routes>
-      <Route path="/" element={<Register/>}/>
+      <Route path="/superapp" element={<Register/>}/>
       <Route path='/Onboarding' element={<Onboarding/>}/>
       <Route path='/Dashboard' element={<Dashboard/>}/>
       <Route path='/Entertain' element={<Entertain/>}/>
